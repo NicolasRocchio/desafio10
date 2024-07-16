@@ -1,0 +1,44 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Salamin",
+      "precio": 12.2
+    },
+    {
+      "id": 2,
+      "nombre": "Queso",
+      "precio": 20.5
+    },
+    {
+      "id": 3,
+      "nombre": "Chocolate",
+      "precio": 222
+    },
+    {
+      "id": 5,
+      "nombre": "Cerveza",
+      "precio": 22.9
+    },
+    {
+      "nombre": "Enrique",
+      "precio": "5",
+      "id": 6
+    },
+    {
+      "nombre": "pincel",
+      "precio": "50",
+      "id": 7
+    },
+    {
+      "nombre": "manzana",
+      "precio": "200",
+      "id": 8
+    },
+    {
+      "nombre": "mesa",
+      "precio": "200",
+      "id": 9
+    }
+  ]
+}

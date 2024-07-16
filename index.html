@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 10</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Ejercicio 1: Chiste Aleatorio -->
+      <section id="joke-section">
+        <h2>Chiste Aleatorio</h2>
+        <button id="get-joke-btn">Obtener Chiste</button>
+        <div id="joke"></div>
+      </section>
+
+      <!-- Ejercicio 2: Listar Posts -->
+      <section id="posts-section">
+        <h2>Publicaciones del Blog</h2>
+        <ul id="post-list"></ul>
+      </section>
+
+      <!-- Ejercicio 3: Buscador de Peliculas -->
+      <section id="movies-section">
+        <h2>Buscador de Películas</h2>
+        <form id="search-form">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Ingresa el título de la película..."
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+        <div id="results" class="results"></div>
+      </section>
+
+      <!-- Ejercicio 4: Buscador de Imagenes -->
+      <section id="images-section">
+        <h2>Buscador de Imágenes</h2>
+        <form id="image-search-form">
+          <input
+            type="text"
+            id="image-search-input"
+            placeholder="Ingresa una palabra clave..."
+            required
+          />
+          <button type="submit">Buscar</button>
+        </form>
+        <div id="image-gallery" class="gallery"></div>
+      </section>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
